@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to top right, rgb(30, 10, 60), rgb(60, 20, 120));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding-bottom: 7.5vh;
+}
+a:visited {
+    color: rgb(200, 150, 200);
+}
+h1, h2 {
+    font-family: serif;
+}
+h1 {
+    font-size: 10vh;
+}
+h2 {
+    font-size: 7.5vh;
+}
+img {
+    width: 50vw;
+    height: auto;
+}
+ul, ol, p {
+    margin: auto;
+    max-width: 60vw;
+    font-family: sans-serif;
+    width: fit-content;
+}
+ul, li {
+    text-align: left;
+}
